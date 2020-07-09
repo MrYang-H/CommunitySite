@@ -21,7 +21,7 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
      *   思路：在请求的一开始去获取ticket，用ticket去查找有没有对应的user
      *     因为在社区网站中，很多地方都需查看当前用户
      *     因此preHandle可以在Controller执行前就判断有无用户信息
-     *    若没有用户信息，重定向到登录界面
+     *
      */
     @Autowired
     private UserService userService;
