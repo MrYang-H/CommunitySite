@@ -125,6 +125,8 @@ public class LoginController implements CommunityConstant{
            //将ticket从map中取出来，以cookie形式发送给客户端
            Cookie cookie=new Cookie("ticket",map.get("ticket").toString());
            cookie.setPath(contextPath);
+           cookie.setMaxAge(expiredSeconds);
+           response.addCookie(cookie);
            return  "redirect:/index";
        }
        else
