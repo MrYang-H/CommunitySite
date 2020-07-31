@@ -24,6 +24,7 @@ import java.util.concurrent.TimeUnit;
 
 @Service
 public class UserService implements CommunityConstant {
+
     @Autowired
     private LoginTicketMapper loginTicketMapper;
     @Autowired
@@ -164,19 +165,27 @@ public class UserService implements CommunityConstant {
         loginTicket.setTicket(CommunityUtil.generateUUID());
         loginTicket.setStatus(0);
         loginTicket.setExpired(new Date(System.currentTimeMillis()+expiredSeconds *1000));
-        loginTicketMapper.insertLoginTicket(loginTicket);
+       // loginTicketMapper.insertLoginTicket(loginTicket);
+          String redisKey = RedisKeyUtil.getTicketKey(loginTicket.getTicket());
+          redisTemplate.opsForValue().set(redisKey,loginTicket);
+
         map.put("ticket",loginTicket.getTicket());
         return map;
     }
     //传入凭证，进行退出
      public void logout(String ticket){
-        loginTicketMapper.updateStatus(ticket,1);
-
+     //   loginTicketMapper.updateStatus(ticket,1);
+       String redikey = RedisKeyUtil.getTicketKey(ticket);
+       LoginTicket loginTicket = (LoginTicket) redisTemplate.opsForValue().get(redikey);
+       loginTicket.setStatus(1);
+       redisTemplate.opsForValue().set(redikey,loginTicket);
      }
 
      //通过ticket查询用户
     public LoginTicket findLoginTicket(String ticket){
-        return loginTicketMapper.selectByTicket(ticket);
+      String rediskey = RedisKeyUtil.getTicketKey(ticket);
+      return (LoginTicket) redisTemplate.opsForValue().get(rediskey);
+        //return loginTicketMapper.selectByTicket(ticket);
     }
 
     public User findUserByName(String toName) {

@@ -1,7 +1,6 @@
 package com.nowcoder.community.util;
 
-import java.util.List;
-import java.util.Map;
+
 
 public class RedisKeyUtil {
     private static final String SPLIT = ":";
@@ -11,6 +10,8 @@ public class RedisKeyUtil {
     //关注功能需要记录两份数据，方便统计
     private static final String PREFIX_FOLLOWEE = "followee";
     private static final String PREFIX_FOLLOWER = "follower";
+    private static final String PREFIX_KAPTCHA = "kaptcha";
+    private static final String PREFIX_TICKET = "ticket";
 
 
     //某个实体的赞
@@ -44,5 +45,12 @@ public class RedisKeyUtil {
 
     }
 
-
+    //登录验证码
+    public static  String getKaptchaKey(String owner){
+        return PREFIX_KAPTCHA + SPLIT +owner ;
+    }
+    //登录凭证
+    public static String getTicketKey(String ticket){
+            return PREFIX_TICKET +SPLIT +ticket;
+    }
 }
