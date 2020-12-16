@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1933749-789a-4c52-9692-58007d606c57" name="Default Changelist" comment="发布帖子">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/CommunityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/TransactionTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>utext</find>
+      <find>target</find>
+      <find>redis</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\work\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g4jkjGRQBlK4P7LIDvR6rVgwIH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../community" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\community\src\test\java\com\nowcoder\community" />
+      <recent name="D:\work\workspace\community\src\main\java\com\nowcoder\community\config" />
+      <recent name="D:\work\workspace\community\src\main\resources\mapper" />
+      <recent name="D:\work\workspace\community\src\main\resources" />
+      <recent name="D:\work\workspace\community\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\community\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CommunityApplication">
+    <configuration name="BlockingQueueTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.BlockingQueueTests" />
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.CommunityApplication" />
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaTests.testKafka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.KafkaTests" />
+      <option name="METHOD_NAME" value="testKafka" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTests.testBoundOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.RedisTests" />
+      <option name="METHOD_NAME" value="testBoundOperations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTests.testTransactional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.RedisTests" />
+      <option name="METHOD_NAME" value="testTransactional" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CommunityApplication" />
+        <item itemvalue="JUnit.KafkaTests.testKafka" />
+        <item itemvalue="Application.BlockingQueueTests" />
+        <item itemvalue="JUnit.RedisTests.testTransactional" />
+        <item itemvalue="JUnit.RedisTests.testBoundOperations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1933749-789a-4c52-9692-58007d606c57" name="Default Changelist" comment="" />
+      <created>1559051647920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559051647920</updated>
+    </task>
+    <task id="LOCAL-00001" summary="首次提交">
+      <created>1559662433377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559662433378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="发送邮件">
+      <created>1559743956620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559743956620</updated>
+    </task>
+    <task id="LOCAL-00003" summary="注册">
+      <created>1560173836633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560173836633</updated>
+    </task>
+    <task id="LOCAL-00004" summary="会话管理">
+      <created>1560179112223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560179112223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="生成验证码">
+      <created>1560345503612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560345503612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="生成验证码">
+      <created>1560345521633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560345521633</updated>
+    </task>
+    <task id="LOCAL-00007" summary="登录">
+      <created>1560434737289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560434737289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="拦截器">
+      <created>1560439630876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560439630876</updated>
+    </task>
+    <task id="LOCAL-00009" summary="账号设置">
+      <created>1560519442999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560519442999</updated>
+    </task>
+    <task id="LOCAL-00010" summary="检查登录状态">
+      <created>1560778620794</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560778620794</updated>
+    </task>
+    <task id="LOCAL-00011" summary="过滤敏感词">
+      <created>1560866747317</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560866747317</updated>
+    </task>
+    <task id="LOCAL-00012" summary="发布帖子">
+      <created>1560947561297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560947561297</updated>
+    </task>
+    <task id="LOCAL-00013" summary="帖子详情">
+      <created>1560950131293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560950131293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="事务管理">
+      <created>1561551513759</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561551513759</updated>
+    </task>
+    <task id="LOCAL-00015" summary="显示评论">
+      <created>1561639011122</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561639011122</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加评论">
+      <created>1561643265459</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561643265459</updated>
+    </task>
+    <task id="LOCAL-00017" summary="私信列表">
+      <created>1561727388208</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561727388208</updated>
+    </task>
+    <task id="LOCAL-00018" summary="发送私信">
+      <created>1561730423831</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561730423831</updated>
+    </task>
+    <task id="LOCAL-00019" summary="统一处理异常">
+      <created>1561848255314</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561848255315</updated>
+    </task>
+    <task id="LOCAL-00020" summary="aop">
+      <created>1561991169769</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561991169770</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Redis示例">
+      <created>1562077343768</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562077343768</updated>
+    </task>
+    <task id="LOCAL-00022" summary="点赞">
+      <created>1562246251175</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562246251175</updated>
+    </task>
+    <task id="LOCAL-00023" summary="我收到的赞">
+      <created>1562378335657</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562378335657</updated>
+    </task>
+    <task id="LOCAL-00024" summary="关注">
+      <created>1562590034297</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1562590034297</updated>
+    </task>
+    <task id="LOCAL-00025" summary="关注">
+      <created>1562590052716</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1562590052716</updated>
+    </task>
+    <task id="LOCAL-00026" summary="重构">
+      <created>1562591118395</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1562591118395</updated>
+    </task>
+    <task id="LOCAL-00027" summary="重构">
+      <created>1562593952051</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1562593952051</updated>
+    </task>
+    <task id="LOCAL-00028" summary="关注列表">
+      <created>1562681492196</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1562681492197</updated>
+    </task>
+    <task id="LOCAL-00029" summary="重构登录模块">
+      <created>1562761633514</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1562761633514</updated>
+    </task>
+    <task id="LOCAL-00030" summary="阻塞队列">
+      <created>1562765541222</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1562765541222</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Kafka">
+      <created>1562932301382</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1562932301382</updated>
+    </task>
+    <task id="LOCAL-00032" summary="发送通知">
+      <created>1563194862203</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1563194862204</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="生成验证码" />
+    <MESSAGE value="登录" />
+    <MESSAGE value="拦截器" />
+    <MESSAGE value="账号设置" />
+    <MESSAGE value="检查登录状态" />
+    <MESSAGE value="过滤敏感词" />
+    <MESSAGE value="帖子详情" />
+    <MESSAGE value="事务管理" />
+    <MESSAGE value="显示评论" />
+    <MESSAGE value="添加评论" />
+    <MESSAGE value="私信列表" />
+    <MESSAGE value="发送私信" />
+    <MESSAGE value="统一处理异常" />
+    <MESSAGE value="aop" />
+    <MESSAGE value="Redis示例" />
+    <MESSAGE value="点赞" />
+    <MESSAGE value="发布帖子" />
+    <MESSAGE value="我收到的赞" />
+    <MESSAGE value="关注" />
+    <MESSAGE value="重构" />
+    <MESSAGE value="关注列表" />
+    <MESSAGE value="重构登录模块" />
+    <MESSAGE value="阻塞队列" />
+    <MESSAGE value="Kafka" />
+    <MESSAGE value="发送通知" />
+    <option name="LAST_COMMIT_MESSAGE" value="发送通知" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597820623929">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597820623929" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604415177308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604415177308" />
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1604415202843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604415202843" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1604415202843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604415202843" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1604415202843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604415202843" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1604415202843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604415202843" />
+    <state x="189" y="0" key="SettingsEditor" timestamp="1600096782729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="189" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600096782729" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>attributes==null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>
